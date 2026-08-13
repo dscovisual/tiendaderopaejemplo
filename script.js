@@ -1,10 +1,44 @@
-
 const products = [
-    { id: 1, name: "Campera Puffer Negra", price: 45000, category: "camperas", sizes: ["S", "M", "L", "XL"], image: "/img/dsc06843-1e1235be2a7f13192617489533210887-1024-1024.webp" },
-    { id: 2, name: "Remera Oversize Básica", price: 12000, category: "remeras", sizes: ["M", "L", "XL"], image: "/img/over-8b552b800c39cf57b117471070026275-1024-1024.webp" },
-    { id: 3, name: "Pantalón Cargo Vintage", price: 35000, category: "pantalones", sizes: ["40", "42", "44"], image: "/img/489150-800-auto.webp" },
-    { id: 4, name: "Gorra Snapback", price: 8000, category: "accesorios", sizes: ["Único"], image: "/img/images.jpeg" },
-    { id: 5, name: "Campera de Jean", price: 38000, category: "camperas", sizes: ["S", "M", "L"], image: "/img/CHK67151_SW_2.jpg" }
+    { 
+        id: 1, 
+        name: "Campera Puffer Negra", 
+        price: 45000, 
+        category: "camperas", 
+        sizes: ["S", "M", "L", "XL"], 
+        image: "./img/dsc06843-1e1235be2a7f13192617489533210887-1024-1024.webp" 
+    },
+    { 
+        id: 2, 
+        name: "Remera Oversize Básica", 
+        price: 12000, 
+        category: "remeras", 
+        sizes: ["M", "L", "XL"], 
+        image: "./img/over-8b552b800c39cf57b117471070026275-1024-1024.webp" 
+    },
+    { 
+        id: 3, 
+        name: "Pantalón Cargo Vintage", 
+        price: 35000, 
+        category: "pantalones", 
+        sizes: ["40", "42", "44"], 
+        image: "img/489150-800-auto.webp" 
+    },
+    { 
+        id: 4, 
+        name: "Gorra Snapback", 
+        price: 8000, 
+        category: "accesorios", 
+        sizes: ["Único"], 
+        image: "img/images.jpeg" 
+    },
+    { 
+        id: 5, 
+        name: "Campera de Jean", 
+        price: 38000, 
+        category: "camperas", 
+        sizes: ["S", "M", "L"], 
+        image: "img/CHK67151_SW_2.jpg" 
+    }
 ];
 
 let cart = []; 
