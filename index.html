@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/minimalist-wordmark-logo-for-a-cute-clothing-bouti.svg">
+ </head>
+<body>
+    <!-- Header estilo e-commerce -->
+   <header class="header">
+    <div class="header-container">
+        <div class="logo-area">
+            <!-- AQUÍ VA TU LOGO -->
+            <img src="img/minimalist-wordmark-logo-for-a-cute-clothing-bouti.svg" alt="Logo de la tienda" class="logo-img">
+            <h1 class="logo-text">Lino & Luna</h1>
+        </div>
+        <button id="cart-btn" class="cart-btn">
+            🛒 Carrito (<span id="cart-count">0</span>)
+        </button>
+    </div>
+</header>
+
+    <!-- Menú de categorías -->
+    <nav class="category-nav">
+        <button class="filter-btn active" data-category="todos">Todos</button>
+        <button class="filter-btn" data-category="camperas">Camperas</button>
+        <button class="filter-btn" data-category="remeras">Remeras</button>
+        <button class="filter-btn" data-category="pantalones">Pantalones</button>
+        <button class="filter-btn" data-category="accesorios">Accesorios</button>
+    </nav>
+
+    <!-- Contenedor principal de productos -->
+    <main class="main-content">
+        <div id="product-grid" class="product-grid">
+            <!-- Los productos se inyectan acá desde JavaScript -->
+        </div>
+    </main>
+
+    <!-- Modal del carrito (oculto por defecto) -->
+    <div id="cart-modal" class="cart-modal hidden">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Tu Pedido</h2>
+                <button id="close-cart" class="close-btn">X</button>
+            </div>
+            <div id="cart-items" class="cart-items">
+                <!-- Los items del carrito van acá -->
+            </div>
+            <div class="cart-footer">
+                <h3>Total: $<span id="cart-total">0</span></h3>
+                <button id="checkout-btn" class="checkout-btn">📲 Enviar pedido por WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer con la dirección -->
+    <footer class="footer">
+        <button class="location-btn">
+            📍 Ver dirección de nuestro local
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
